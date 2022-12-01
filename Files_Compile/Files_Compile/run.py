@@ -1,10 +1,11 @@
 import os
 from dotenv import load_dotenv
+import charade
 import re
 
 load_dotenv()
 _directories = []
-_printOutputs = False
+_printOutputs = os.getenv("PRINT_OUTPUTS")
 _printableFiles = []
 
 def Main():
@@ -15,20 +16,19 @@ def Main():
             printablefile.Directory = os.path.normpath(i)
             printablefile.NewDirectory = os.path.normpath(f'{os.getenv("OUTPUT_DIRECTORY")}')
             printablefile.FileName = j["FileName"]
-            printablefile.NewFileName = f'{os.path.basename(i)}.txt'
+            printablefile.NewFileName = f'{os.path.basename(i)}{os.getenv("OUTPUT_FILE_EXTENTION")}'
             printablefile.FileLines = GetAllLinesInFile(j["Directory"], j["FileName"])
             _printableFiles.append(printablefile)
     
     for k in _printableFiles:
-        k.Print()
+        if _printOutputs:
+            k.Print()
         k.Write()
 
         
-
-
 def GetAllDirectoriesInDirectory(directory):
     if _printOutputs:
-        print('Getting directory list in directory ' + directory)
+        print(f'Getting directory list in directory: {directory}')
 
     directories = []
 
@@ -41,24 +41,59 @@ def GetAllDirectoriesInDirectory(directory):
 
 def GetAllFilesInDirectory(directory):
     if _printOutputs:
-        print('Getting file list in directory ' + directory)
+        print(f'Getting file list in directory: {directory}')
+
     fileList = []
+
     for filename in os.listdir(directory):
         i = os.path.join(directory, filename)
         if(os.path.isfile(i)):
             addition = dict(Directory = directory, FileName = filename)
             fileList.append(addition)
+
     if _printOutputs:
         for j in fileList:
             print('File: ' + j["FileName"] + ' found')
+
     return fileList
     
 
 def GetAllLinesInFile(fileDirectory, fileName):
     if _printOutputs:
         print('Getting all lines in file ' + fileDirectory + '/' + fileName)
-    with open(fileDirectory + '/' + fileName) as f:
-        return f.readlines()
+
+    resp = ''
+
+    try:
+        with open(f'{fileDirectory}/{fileName}', encoding='utf-16') as f:
+            resp = f.read()
+            if _printOutputs:
+                 print(f'File could be encoded as: {CheckEncoding(resp)}')
+            f.close()
+    except:
+        try:
+            with open(f'{fileDirectory}/{fileName}', encoding='utf-8') as f:
+                resp = f.read()
+                if _printOutputs:
+                    print(f'File could be encoded as: {CheckEncoding(resp)}')
+                f.close()
+        except:
+            resp = 'File could not be read, please check that encoding is utf-16, or utf-8'
+
+    return resp
+
+
+def CheckEncoding(inputString):
+    if _printOutputs:
+        print('Checking encoding of string')
+
+    try:
+        if isinstance(inputString, str):
+            return charade.detect(inputString.encode())
+        else:
+            return charade.detect(inputString)
+    except UnicodeDecodeError:
+        return charade.detect(inputString.encode('utf-8'))
 
 
 class PrintableFile:
@@ -71,20 +106,19 @@ class PrintableFile:
 
     def Write(self):
         if _printOutputs:
-            print(f'Writing list to file {self.Directory}\{self.FileName}')
+            print(f'Writing to file: {self.Directory}\{self.FileName}')
 
         doesExist = os.path.exists(f'{self.NewDirectory}\{self.NewFileName}')
         with open(f'{self.NewDirectory}\{self.NewFileName}', 'a' if doesExist else 'w') as f:
             num = re.search('\d+', self.FileName)
-            print(num)
             if num:
                 f.write(f'\n\n\n--{num.group(0)}\n\n')
-            for i in self.FileLines:
-                f.write(f'{i.rstrip()}\n')
+            else:
+                f.write('\n\n\n--TICKET # NOT FOUND\n\n')
+            f.write(self.FileLines)
             f.close()
 
     def Print(self):
         print(f'Directory: {self.Directory}\nNewDirectory: {self.NewDirectory}\nFileName: {self.FileName}\nNewFileName: {self.NewFileName}\n')
-
 
 Main()
