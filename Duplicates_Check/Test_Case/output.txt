@@ -1,0 +1,356 @@
+FOUND : 	hello
+IN STRING : 	Sed venenatis augue quis hello luctus rutrum.
+IN FILE : 	File1.txt
+
+FOUND : 	hello
+IN STRING : 	Vestibulum hello sed odio porttitor, feugiat erat id, suscipit nibh.
+IN FILE : 	File3.txt
+
+FOUND : 	world
+IN STRING : 	Cras eu metus et world arcu efficitur vulputate.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	In tempus est luctus sapien suscipit, eu mattis risus dapibus.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Vestibulum dignissim odio eget sem tempus tristique.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Ut non metus vitae odio interdum scelerisque.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Ut faucibus ipsum quis quam interdum, a egestas lacus tincidunt.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Duis viverra nisi ac lorem dictum, sed bibendum nisl convallis.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Suspendisse eget nisl auctor, ultricies est sit amet, laoreet turpis.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Donec iaculis orci a fringilla maximus.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Nulla feugiat massa vitae massa tempor facilisis.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Mauris elementum leo a augue venenatis, ut efficitur ipsum pretium.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Duis eget lorem viverra lorem ultrices semper eget et elit.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Vestibulum lobortis ligula ut neque pretium elementum.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Ut nec massa malesuada, ultrices dui sed, auctor mi.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Mauris in lectus convallis, euismod magna tristique, aliquam justo.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Sed venenatis augue quis hello luctus rutrum.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	In sit amet dui accumsan, facilisis eros quis, tempor urna.
+IN FILE : 	File1.txt
+
+FOUND : 	is
+IN STRING : 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	In tempus est luctus sapien suscipit, eu mattis risus dapibus.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Vestibulum dignissim odio eget sem tempus tristique.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Ut non metus vitae odio interdum scelerisque.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Ut faucibus ipsum quis quam interdum, a egestas lacus tincidunt.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Duis viverra nisi ac lorem dictum, sed bibendum nisl convallis.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Suspendisse eget nisl auctor, ultricies est sit amet, laoreet turpis.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Donec iaculis orci a fringilla maximus.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Nulla feugiat massa vitae massa tempor facilisis.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Mauris elementum leo a augue venenatis, ut efficitur ipsum pretium.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Duis eget lorem viverra lorem ultrices semper eget et elit.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Vestibulum lobortis ligula ut neque pretium elementum.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Ut nec massa malesuada, ultrices dui sed, auctor mi.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Mauris in lectus convallis, euismod magna tristique, aliquam justo.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Sed venenatis augue quis luctus rutrum.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	In sit amet dui accumsan, facilisis eros quis, tempor urna.
+IN FILE : 	File2.txt
+
+FOUND : 	is
+IN STRING : 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	In tempus est luctus sapien suscipit, eu mattis risus dapibus.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Vestibulum dignissim odio eget sem tempus tristique.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Ut non metus vitae odio interdum scelerisque.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Ut faucibus ipsum quis quam interdum, a egestas lacus tincidunt.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Duis viverra nisi ac lorem dictum, sed bibendum nisl convallis.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Suspendisse eget nisl auctor, ultricies est sit amet, laoreet turpis.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Donec iaculis orci a fringilla maximus.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Nulla file feugiat massa vitae massa tempor facilisis.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Mauris elementum leo a augue venenatis, ut efficitur ipsum pretium.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Duis eget lorem viverra lorem ultrices semper eget et elit.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Vestibulum lobortis ligula ut neque pretium elementum.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Ut nec massa malesuada, ultrices dui sed, auctor mi.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Mauris in lectus in convallis, euismod magna tristique, aliquam justo.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	Sed venenatis augue quis luctus rutrum.
+IN FILE : 	File3.txt
+
+FOUND : 	is
+IN STRING : 	In sit amet dui accumsan, facilisis eros quis, tempor urna.
+IN FILE : 	File3.txt
+
+FOUND : 	file
+IN STRING : 	Nulla file feugiat massa vitae massa tempor facilisis.
+IN FILE : 	File3.txt
+
+FOUND : 	be
+IN STRING : 	Duis viverra nisi ac lorem dictum, sed bibendum nisl convallis.
+IN FILE : 	File1.txt
+
+FOUND : 	be
+IN STRING : 	Proin ultrices libero sed quam lacinia aliquet.
+IN FILE : 	File1.txt
+
+FOUND : 	be
+IN STRING : 	Duis viverra nisi ac lorem dictum, sed bibendum nisl convallis.
+IN FILE : 	File2.txt
+
+FOUND : 	be
+IN STRING : 	Proin ultrices libero sed quam lacinia aliquet.
+IN FILE : 	File2.txt
+
+FOUND : 	be
+IN STRING : 	Duis viverra nisi ac lorem dictum, sed bibendum nisl convallis.
+IN FILE : 	File3.txt
+
+FOUND : 	be
+IN STRING : 	Proin ultrices libero sed quam lacinia aliquet.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	In tempus est luctus sapien suscipit, eu mattis risus dapibus.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	Ut non metus vitae odio interdum scelerisque.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	Ut faucibus ipsum quis quam interdum, a egestas lacus tincidunt.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	Donec iaculis orci a fringilla maximus.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	In non ligula nec magna gravida pellentesque.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	Proin ultrices libero sed quam lacinia aliquet.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	Mauris in lectus convallis, euismod magna tristique, aliquam justo.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	Morbi ut urna ut est interdum suscipit sed eget dui.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	In sit amet dui accumsan, facilisis eros quis, tempor urna.
+IN FILE : 	File1.txt
+
+FOUND : 	in
+IN STRING : 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	In tempus est luctus sapien suscipit, eu mattis risus dapibus.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	Ut non metus vitae odio interdum scelerisque.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	Ut faucibus ipsum quis quam interdum, a egestas lacus tincidunt.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	Donec iaculis orci a fringilla maximus.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	In non ligula nec magna gravida pellentesque.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	Proin ultrices libero sed quam lacinia aliquet.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	Mauris in lectus convallis, euismod magna tristique, aliquam justo.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	Morbi ut urna ut est interdum suscipit sed eget dui.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	In sit amet dui accumsan, facilisis eros quis, tempor urna.
+IN FILE : 	File2.txt
+
+FOUND : 	in
+IN STRING : 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	In tempus est luctus sapien suscipit, eu mattis risus dapibus.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	Ut non metus vitae odio interdum scelerisque.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	Ut faucibus ipsum quis quam interdum, a egestas lacus tincidunt.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	Donec iaculis orci a fringilla maximus.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	In non ligula nec magna gravida pellentesque.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	Proin ultrices libero sed quam lacinia aliquet.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	Mauris in lectus in convallis, euismod magna tristique, aliquam justo.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	Morbi ut urna ut est interdum suscipit sed eget dui.
+IN FILE : 	File3.txt
+
+FOUND : 	in
+IN STRING : 	In sit amet dui accumsan, facilisis eros quis, tempor urna.
+IN FILE : 	File3.txt
+
+FOUND : 	folder
+IN STRING : 	Etiam folder faucibus dolor ac purus aliquam luctus.
+IN FILE : 	File3.txt
+
